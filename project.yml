@@ -1,0 +1,25 @@
+name: LouisVoice
+options:
+  bundleIdPrefix: com.muratozgel
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    DEVELOPMENT_TEAM: ""
+    SWIFT_VERSION: "6.0"
+targets:
+  LouisVoice:
+    type: application
+    platform: iOS
+    sources:
+      - Sources/LouisVoice
+    info:
+      path: Sources/LouisVoice/Info.plist
+      properties:
+        CFBundleDisplayName: Louis
+        UILaunchScreen: {}
+        NSMicrophoneUsageDescription: "Louis needs microphone access so you can speak to your private assistant."
+        NSSpeechRecognitionUsageDescription: "Louis uses speech recognition to transcribe your voice before sending text to OpenClaw."
+        NSSupportsLiveActivities: false
+    entitlements:
+      path: Sources/LouisVoice/LouisVoice.entitlements
