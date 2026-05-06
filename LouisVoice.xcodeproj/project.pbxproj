@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AF7DFAC799612C59D214CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9676522E6F531227F10EA /* ContentView.swift */; };
+		18BCE6E5F76A0F80C3713F93 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C309467A0EF856BC4D9D66 /* SpeechService.swift */; };
+		254D298DA94495E51B3D4EB1 /* OpenClawClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00498E1679FBB209C2306F4 /* OpenClawClient.swift */; };
+		8FEA4119590EF20D68DBE323 /* LouisVoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A245BC196C764CCCC1825A19 /* LouisVoiceApp.swift */; };
+		C830ECB7669DC6AFC2B09960 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DBDABA193CA0D45E4868F9 /* AppSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14E889B7FDF301BFC279E841 /* LouisVoice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LouisVoice.entitlements; sourceTree = "<group>"; };
+		4BE9676522E6F531227F10EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C20D5575A85458B3EBC8A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		57A02F17887DAAF6285367FD /* LouisVoice.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LouisVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C309467A0EF856BC4D9D66 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		A245BC196C764CCCC1825A19 /* LouisVoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LouisVoiceApp.swift; sourceTree = "<group>"; };
+		B00498E1679FBB209C2306F4 /* OpenClawClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClawClient.swift; sourceTree = "<group>"; };
+		B1DBDABA193CA0D45E4868F9 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2F69115906D3A8F4010AB03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A02F17887DAAF6285367FD /* LouisVoice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF1591A28FCD30F1DC5F7F1 = {
+			isa = PBXGroup;
+			children = (
+				6111479A2A4DEB601CB84B08 /* LouisVoice */,
+				2F69115906D3A8F4010AB03C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6111479A2A4DEB601CB84B08 /* LouisVoice */ = {
+			isa = PBXGroup;
+			children = (
+				B1DBDABA193CA0D45E4868F9 /* AppSettings.swift */,
+				4BE9676522E6F531227F10EA /* ContentView.swift */,
+				4C20D5575A85458B3EBC8A83 /* Info.plist */,
+				14E889B7FDF301BFC279E841 /* LouisVoice.entitlements */,
+				A245BC196C764CCCC1825A19 /* LouisVoiceApp.swift */,
+				B00498E1679FBB209C2306F4 /* OpenClawClient.swift */,
+				62C309467A0EF856BC4D9D66 /* SpeechService.swift */,
+			);
+			name = LouisVoice;
+			path = Sources/LouisVoice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467FC8E960927C8784A4619D /* LouisVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D4383C88918FBBFAD3ED0D /* Build configuration list for PBXNativeTarget "LouisVoice" */;
+			buildPhases = (
+				1067BB6827EF42A30055930C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LouisVoice;
+			packageProductDependencies = (
+			);
+			productName = LouisVoice;
+			productReference = 57A02F17887DAAF6285367FD /* LouisVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7D4B46B137ED82935BA75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					467FC8E960927C8784A4619D = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = A5D75E620CAB1FBAC52DA65F /* Build configuration list for PBXProject "LouisVoice" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5FF1591A28FCD30F1DC5F7F1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2F69115906D3A8F4010AB03C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467FC8E960927C8784A4619D /* LouisVoice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1067BB6827EF42A30055930C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C830ECB7669DC6AFC2B09960 /* AppSettings.swift in Sources */,
+				16AF7DFAC799612C59D214CF /* ContentView.swift in Sources */,
+				8FEA4119590EF20D68DBE323 /* LouisVoiceApp.swift in Sources */,
+				254D298DA94495E51B3D4EB1 /* OpenClawClient.swift in Sources */,
+				18BCE6E5F76A0F80C3713F93 /* SpeechService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F6C7F7779E0DEB6CFA0D0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/LouisVoice/LouisVoice.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sources/LouisVoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muratozgel.LouisVoice;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A2E8376678CF7FB4118C37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		6E7B7416CC368EFD667DCAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		7EBFF49C5B2B13EF67516119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/LouisVoice/LouisVoice.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sources/LouisVoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muratozgel.LouisVoice;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D75E620CAB1FBAC52DA65F /* Build configuration list for PBXProject "LouisVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2E8376678CF7FB4118C37E /* Debug */,
+				6E7B7416CC368EFD667DCAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8D4383C88918FBBFAD3ED0D /* Build configuration list for PBXNativeTarget "LouisVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBFF49C5B2B13EF67516119 /* Debug */,
+				0F6C7F7779E0DEB6CFA0D0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7D4B46B137ED82935BA75E /* Project object */;
+}
